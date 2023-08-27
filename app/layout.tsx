@@ -1,5 +1,11 @@
 import Link from "next/link";
 import "../app/globals.css";
+import { Metadata } from "next/types";
+
+export const metadata: Metadata = {
+  title: `K0oceng's Blog`,
+  description: "A blog that discusses whatever I want to write about.",
+};
 
 export default function RootLayout({
   children,
