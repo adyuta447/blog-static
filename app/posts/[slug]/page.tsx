@@ -25,10 +25,10 @@ const PostPage = (props: any) => {
     <>
       <div>
         <div className="my-12">
-          <h1 className="text-4xl text-center">{post.data.title}</h1>
+          <h1 className="text-4xl text-center text-white text-2xl">{post.data.title}</h1>
           <p className="text-slate-500 mt-2 text-center">{post.data.date}</p>
         </div>
-        <article className="prose lg:prose-xl prose-grey">
+        <article className="prose lg:prose-xl prose-blue text-white">
           <Markdown>{post.content}</Markdown>
         </article>
       </div>

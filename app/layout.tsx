@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="bg-slate-200">
+      <body className="bg-[#111112]">
         <div className="mx-auto max-w-2xl px-6">
           {header}
           {children}
