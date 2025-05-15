@@ -31,10 +31,8 @@ export default function RootLayout({
   const footer = (
     <footer>
       <div className="border-t border-slate-400 mt-6 py-4 text-center text-slate-400">
-        <br />
-        <Link href={"https://k0oceng.vercel.app/"}>
-          <p>Designed by Adyuta</p>
-        </Link>
+        Berterimakasihlah pada segala yang memberi kehidupan.
+        <br />- Pramoedya Ananta Toer, Bumi Manusia (50)
       </div>
     </footer>
   );
